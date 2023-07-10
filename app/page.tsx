@@ -9,9 +9,15 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
+    <div className={styles.center}>
+      <h1>Seamless Processes
+      Start Here.</h1>
 
-    <main className={styles.main}>
-      
-    </main>
+      <p>Check your process reality as it is.
+      Unbiased, objective, exact.</p>
+
+    </div>
+
+    
   )
 }
