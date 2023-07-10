@@ -100,6 +100,20 @@
     box-sizing: border-box;
 }
 
+.left p {
+    font-size: 1.35rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    color: #1d1d1b;
+    line-height: 1.35;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: Calibre, Helvetica, sans-serif;
+    letter-spacing: -.025rem;
+    -webkit-font-smoothing: antialiased;
+}
+
 .center {
     display: block;
     justify-content: center;
