@@ -57,7 +57,7 @@
             <div>
                 <Link href="/contact"><code className={styles.code}>Contact</code></Link>
             </div>
-        </div>            
+        </div>   
      </nav>
 
    )

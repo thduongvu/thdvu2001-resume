@@ -10,10 +10,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className={styles.center}>
-      <h1>Seamless Processes
-      Start Here.</h1>
+      <h1>Seamless Processes<br></br>Start Here.</h1>
 
-      <p>Check your process reality as it is.
+      <p>Check your process reality as it is.<br></br>
       Unbiased, objective, exact.</p>
 
     </div>
