@@ -47,7 +47,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
             <div>
-                <Link href="/about"><code className={styles.code}>About</code></Link>
+                <Link href="/"><code className={styles.code}>About</code></Link>
             </div>
 
             <div>
@@ -55,7 +55,7 @@
             </div>
 
             <div>
-                <Link href="/contact"><code className={styles.code}>Contact</code></Link>
+                <Link href="/"><code className={styles.code}>Contact</code></Link>
             </div>
         </div>   
      </nav>
