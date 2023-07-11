@@ -15,6 +15,10 @@ export default function Home() {
       <p>Check your process reality as it is.<br></br>
       Unbiased, objective, exact.</p>
 
+      <Link id="btn">View my projects</Link>
+
+      <h2>My Projects</h2>
+
     </div>
 
     

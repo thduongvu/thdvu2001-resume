@@ -2,16 +2,20 @@
 .intro {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: left;
     padding-left: 7rem;
+    position: relative;
 }
 
 .left {
     display: block;
+    position: relative;
+    text-align: left;
     justify-content: left;
     align-items: left;
-    position: relative;
     padding: 1rem 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 .left h1 {
