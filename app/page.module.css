@@ -316,19 +316,15 @@
     .card:hover h2 {
         color: #00c488;
     }
-    .arrow:hover::after {
+    .card:hover .arrow::after {
         -webkit-transform: translateX(.5rem);
         transform: translateX(.5rem)
     }
 }
 
-@media (prefers-reduced-motion) {
-    .card:hover span {
-        transform: none;
-    }
-    .arrow:hover::after {
-        -webkit-transform: translateX(.5rem);
-        transform: translateX(.5rem)
+@media (hover: hover) and (pointer: fine) {
+    .code:hover {
+        color: #00c488;
     }
 }
 

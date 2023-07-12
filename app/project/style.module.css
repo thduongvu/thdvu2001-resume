@@ -8,27 +8,17 @@
     position: relative;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
-    padding: 0 5rem 0 5rem;
-    display: block;
-}
-
 .left {
     display: block;
     position: relative;
     text-align: left;
     justify-content: left;
     align-items: left;
-    padding: 1rem 0;
     -webkit-font-smoothing: antialiased;
 }
 
 .left h1 {
-    font-size: 4.5rem;
+    font-size: 3.75rem;
     line-height: 1;
     padding-bottom: 1.5rem;
     letter-spacing: -.25rem;
@@ -42,9 +32,8 @@
 }
 
 .left p {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    padding-bottom: 2rem;
     color: #1d1d1b;
     line-height: 1.35;
     display: block;
@@ -174,12 +163,20 @@
     position: absolute;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0 7rem 0 7rem;
+    display: block;
+}
+
 .listing_tags {
     position: relative;
     list-style: none;
     font-size: 0;
     padding: 0;
-    margin: 0 0 3rem;
     text-align: left;
 }
 
@@ -211,7 +208,7 @@
     display: block;
     position: relative;
     z-index: 1;
-    padding: 2.25rem 0 2rem 1.5rem;
+    padding: 2.25rem 0 2rem 0;
     color: #1d1d1b;
     border: 0
 }
@@ -231,11 +228,26 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 6px;
     background-color: #00c488;
-    -webkit-transition: all .3s;
     transition: all .3s
+}
+
+.tabs_under_hover {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    transition: all .3s
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .tabs:hover .tabs_under_hover {
+        background-color: #00c488;
+    }
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -244,17 +256,7 @@
     .card:hover h2 {
         color: #00c488;
     }
-    .arrow:hover::after {
-        -webkit-transform: translateX(.5rem);
-        transform: translateX(.5rem)
-    }
-}
-
-@media (prefers-reduced-motion) {
-    .card:hover span {
-        transform: none;
-    }
-    .arrow:hover::after {
+    .card:hover .arrow::after {
         -webkit-transform: translateX(.5rem);
         transform: translateX(.5rem)
     }
