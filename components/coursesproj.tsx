@@ -7,16 +7,16 @@ export default function Coursesproj() {
   return (
     <coursesproj>
         <div className={styles.grid}>
-        <div href="/" className={styles.card} >
+        <div href="/project/courses/thesis" className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/'>
+              <a href='/project/courses/thesis'>
                 <Image src="/ai-root-cause-analysis-categorical-metrics-2.png" layout='fill' objectFit='contain' />
               </a>
           </figure>
-          <p><span>Product</span></p>
-          <h2>Forget About Difficult-to-Understand Data. Minit Dashboards Are Here to Help</h2>
+          <p><span>Thesis</span></p>
+          <h2>Xây dựng hệ thống quản lý sản xuất tích hợp khai phá quy trình</h2>
           <br></br>
-          <Link href="/" className={styles.arrow}> </Link>
+          <Link href="/project/courses/thesis" className={styles.arrow}> </Link>
         </div>
 
         <div href="/" className={styles.card} >
