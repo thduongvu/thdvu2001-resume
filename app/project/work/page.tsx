@@ -2,25 +2,23 @@ import React from 'react'
 import styles from "app/project/style.module.css";
 import Image from 'next/image'
 import Link from 'next/link'
+import Workexp from '../../../components/workexp'
+import IntroProject from '../../../components/introproject'
 import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Thuy Duong Porfolio | Projects',
+  title: 'Thuy Duong Porfolio | Projects/ Work Experience',
 }
 
 export default function Work() {
     return (
-      <div>
-        <div className={styles.intro}>
-          <div className={styles.left}>
-            <h1>Projects</h1>
+        <div>
+            <div className={styles.intro}>
+                <IntroProject />
+            </div>
 
-            <p>Download our free materials or watch the webinars,<br></br>
-            and learn how process mining can provide value for your business.</p>
-          </div>
-      </div>
-      <div className={styles.content}>
+            <div className={styles.content}>
         <ul className={styles.listing_tags}>
           <li>
             <Link href="/project" className={styles.tabs}>
@@ -48,48 +46,11 @@ export default function Work() {
             </Link>
           </li>
         </ul>
-      </div>
-      
-      <div className={styles.ingrid}>
-      <div className={styles.grid}>
-        <div href="/" className={styles.card} >
-          <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/'>
-                <Image src="/Minit_5_2_Root_Cause_Analysis.png" layout='fill' objectFit='contain' />
-              </a>
-          </figure>
-          <p><span>Product</span></p>
-          <h2>Heijmans Gets to Heart of Data Gold Mine Faster with Process Mining</h2>
-          <br></br>
-          <Link href="/" className={styles.arrow}> </Link>
-        </div>
+            </div>
 
-        <div href="/" className={styles.card} >
-          <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/'>
-                <Image src="/minit-analyst-business-rules-screen-device-1.png" layout='fill' objectFit='contain' />
-              </a>
-          </figure>
-          <p><span>Product</span></p>
-          <h2>Minit Product Updates: New Data Sources, Data Refresh, Root Cause Analysis Update & More</h2>
-          <br></br>
-          <Link href="/" className={styles.arrow}> </Link>
+            <div className={styles.ingrid}>
+                <Workexp />
+            </div>
         </div>
-
-        <div href="/" className={styles.card} >
-          <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/'>
-                <Image src="/minit-analyst-business-rules-screen-device.png" layout='fill' objectFit='contain' />
-              </a>
-          </figure>
-          <p><span>Product</span></p>
-          <h2>Minit Product Updates: New Data Sources, Data Refresh, Root Cause Analysis Update & More</h2>
-          <br></br>
-          <Link href="/" className={styles.arrow}> </Link>
-        </div>
-
-      </div>
-    </div>
-      </div>
     )
   }
