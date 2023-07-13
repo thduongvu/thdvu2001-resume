@@ -7,7 +7,7 @@ import IntroProject from '../../../components/introproject'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Thuy Duong Porfolio | Projects/ Courses Projects',
+  title: 'Projects/ Courses Projects | Thuy Duong Portfolio',
 }
 
 export default function Courses() {

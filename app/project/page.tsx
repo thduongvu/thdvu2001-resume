@@ -9,7 +9,8 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
-  title: 'Thuy Duong Porfolio | Projects',
+  title: 'Projects | Thuy Duong Portfolio',
+  
 }
 
 export default function Project() {

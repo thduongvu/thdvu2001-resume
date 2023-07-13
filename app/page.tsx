@@ -4,7 +4,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
  
 export const metadata: Metadata = {
-  title: 'Thuy Duong Porfolio | Home',
+  title: 'Home | Thuy Duong Portfolio',
 }
 
 export default function Home() {
@@ -13,86 +13,44 @@ export default function Home() {
       <div className={styles.center}>
         <h1>Seamless Processes<br></br>Start Here.</h1>
         <p>Check your process reality as it is.<br></br>Unbiased, objective, exact.</p>
-        <Link href="/" className={styles.button}>View my projects </Link>
+        <Link href="/project" className={styles.button}>Check Out My Projects </Link>
+
         <div className={styles.line}></div>
-        <h3>My Projects</h3>
 
-      </div>
+        <div className={styles.aboutme}>
+            <div className={styles.aboutme_inside}>
+                <div className={styles.aboutme_des}>
+                    <h3>About me</h3>
+                    <p> I am currently a final year student at University of Information Technology - VNU HCM based Information Systems 
+                      <br></br>with a goal-driven creative mindset and passion for learning and innovating.
+                      <br></br>Currently working as a software developer at FPT and as a Freelance Content Writer for Pepper Content.
+                      <br></br>Outside work, I occasionally blog on Medium. Off-screen, I sketch my thoughts here!
+                    </p>
+                </div>
+                <Image src="/ me_00c488.svg" width={306} height={282.573} priority/>
+            </div>
+            <Link href="#footer_footer" className={styles.buttonup}>Contact Me</Link>
+        </div>
 
-      <div className={styles.ingrid}>
-        <div className={styles.grid}>
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/ai-root-cause-analysis-categorical-metrics-2.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Forget About Difficult-to-Understand Data. Minit Dashboards Are Here to Help</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
+        <div className={styles.line}></div>
 
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/minit-analyst-business-rules-screen-device-1.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Minit Boosts Partner Program After VP of Alliances and Partners Joins the Team</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
-
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/minit-analyst-business-rules-screen-device.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Minit Named a Leader in 2021 Everest Group PEAK Matrix Report for Process Mining</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
-
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/Minit_5_2_Root_Cause_Analysis.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Heijmans Gets to Heart of Data Gold Mine Faster with Process Mining</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
-
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/minit-analyst-business-rules-screen-device-1.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Minit Product Updates: New Data Sources, Data Refresh, Root Cause Analysis Update & More</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
-
-          <div href="/" className={styles.card} >
-            <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-                <a href='/'>
-                  <Image src="/minit-analyst-business-rules-screen-device.png" layout='fill' objectFit='contain' />
-                </a>
-            </figure>
-            <p><span>Product</span></p>
-            <h2>Minit Product Updates: New Data Sources, Data Refresh, Root Cause Analysis Update & More</h2>
-            <br></br>
-            <Link href="/" className={styles.arrow}> </Link>
-          </div>
-
+        <h3>What I Do?</h3>
+        <div className={styles.services}>
+            <div className={styles.roles}>
+              <Image src="/pic1.png" width={80} height={40} priority/>
+              <h4>Business Analyst</h4>
+              <h5>I offer world-class custom software development services designed specifically for your business and ready to satisfy your exclusive needs.</h5>
+            </div>
+            <div className={styles.roles}>
+              <Image src="/pic2.png" width={80} height={40} priority/>
+              <h4>System Analyst</h4>
+              <h5>I sync Mpesa web API with websites to enable automation of payments verification, disbursements, and payment record management.</h5>
+            </div>
+            <div className={styles.roles}>
+              <Image src="/pic3.png" width={80} height={40} priority/>
+              <h4>Software Deployment</h4>
+              <h5>I offer API integration service in existing applications or in software I create from scratch.</h5>
+            </div>
         </div>
       </div>
 

@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Porfolio of Thdvu',
   description: 'On my way',
+  icons: { icon: { url: "/resources-guide.svg", type: "image/svg" }}
 }
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {

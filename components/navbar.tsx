@@ -63,7 +63,7 @@
             </div>
 
             <div>
-                <Link href="/"><code className={styles.code}>Contact</code></Link>
+                <Link href="#footer_footer"><code className={styles.code}>Contact</code></Link>
             </div>
         </div>   
      </nav>
