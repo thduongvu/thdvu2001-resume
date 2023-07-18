@@ -5,8 +5,7 @@ import Link from 'next/link'
 
 export default function Workexp() {
   return (
-    <workexp>
-        <div className={styles.grid}>
+    <div className={styles.grid}>
         <div href="/project/work/business-travel-management" className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/business-travel-management'>
@@ -66,7 +65,6 @@ export default function Workexp() {
           <br></br>
           <Link href="/project/work/training-management" className={styles.arrow}> </Link>
         </div>
-        </div>
-    </workexp>
+    </div>
   )
 }
