@@ -10,7 +10,7 @@ export default function Coursesproj() {
         <div href="/project/courses/thesis" className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/courses/thesis'>
-                <Image src="/ai-root-cause-analysis-categorical-metrics-2.png" layout='fill' objectFit='contain' />
+                <Image src="/ai-root-cause-analysis-categorical-metrics-2.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>
           <p><span>Thesis</span></p>
