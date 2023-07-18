@@ -5,7 +5,6 @@ import Link from 'next/link'
 
 export default function Coursesproj() {
   return (
-    <coursesproj>
         <div className={styles.grid}>
         <div href="/project/courses/thesis" className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
@@ -19,6 +18,5 @@ export default function Coursesproj() {
           <Link href="/project/courses/thesis" className={styles.arrow}> </Link>
         </div>
         </div>
-    </coursesproj>
   )
 }
