@@ -24,7 +24,7 @@ export default function Project() {
                 <ul className={styles.listing_tags}>
                     <li>
                         <Link href="/project" className={styles.tabs}>
-                        <Image src="/blog-articles.svg" alt="tab all" width={18} height={14} priority/>
+                        <Image src="/blog-articles.svg" alt="tabAll" width={18} height={14} priority/>
                         &nbsp;
                         All 
                         <div className={styles.tabs_under_hover}></div>
@@ -33,7 +33,7 @@ export default function Project() {
                     </li>
                     <li>
                         <Link href="/project/work" className={styles.tabs}>
-                        <Image src="/blog-partners.svg" alt="tab workexp" width={18} height={14} priority/>
+                        <Image src="/blog-partners.svg" alt="tabWorkexp" width={18} height={14} priority/>
                         &nbsp;
                         Work Experience
                         <div className={styles.tabs_under_hover}></div>
@@ -41,7 +41,7 @@ export default function Project() {
                     </li>
                     <li>
                         <Link href="/project/courses" className={styles.tabs}>
-                        <Image src="/resources-guide.svg" alt="tab courses projects" width={14} height={18} priority/>
+                        <Image src="/resources-guide.svg" alt="tabCourses" width={14} height={18} priority/>
                         &nbsp;
                         Course Projects
                         <div className={styles.tabs_under_hover}></div>
