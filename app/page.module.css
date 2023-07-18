@@ -9,6 +9,10 @@
         min-height: 10vh;
     }
     
+    .h3 {
+        font-family: Space Grotesk, Helvetica, sans-serif;
+    }
+    
     .ingrid {
         display: flex;
         flex-direction: column;
@@ -194,8 +198,8 @@
         font-size: .9rem;
         font-weight: 300;
         line-height: 1;
-        color: #1d1d1b;
         font-family: Space Grotesk, Helvetica, sans-serif;
+        color: #1d1d1b;
         font-weight: 700;
     }
     
