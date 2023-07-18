@@ -27,7 +27,7 @@ export default function Home() {
                       <br></br>Outside work, I occasionally blog on Medium. Off-screen, I sketch my thoughts here!
                     </p>
                 </div>
-                <Image src="/ me_00c488.svg" alt="thduongvu" width={306} height={282.573} priority/>
+                <Image src="/ me_00c488.svg" alt="avatar" width={306} height={282.573} priority/>
             </div>
             <Link href="#footer_footer" className={styles.buttonup}>Contact Me</Link>
         </div>
@@ -37,17 +37,17 @@ export default function Home() {
         <h3>What I Do?</h3>
         <div className={styles.services}>
             <div className={styles.roles}>
-              <Image src="/pic1.png" alt="thduongvu" width={80} height={40} priority/>
+              <Image src="/pic1.png" alt="role1" width={80} height={40} priority/>
               <h4>Business Analyst</h4>
               <h5>I offer world-class custom software development services designed specifically for your business and ready to satisfy your exclusive needs.</h5>
             </div>
             <div className={styles.roles}>
-              <Image src="/pic2.png" alt="thduongvu" width={80} height={40} priority/>
+              <Image src="/pic2.png" alt="role2" width={80} height={40} priority/>
               <h4>System Analyst</h4>
               <h5>I sync Mpesa web API with websites to enable automation of payments verification, disbursements, and payment record management.</h5>
             </div>
             <div className={styles.roles}>
-              <Image src="/pic3.png" alt="thduongvu" width={80} height={40} priority/>
+              <Image src="/pic3.png" alt="role3" width={80} height={40} priority/>
               <h4>Software Deployment</h4>
               <h5>I offer API integration service in existing applications or in software I create from scratch.</h5>
             </div>
