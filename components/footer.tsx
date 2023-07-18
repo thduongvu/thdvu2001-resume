@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
 
         <Link href="#top">
-            <Image src="/icon-park_to-top.svg" width={24} height={24}/>
+            <Image src="/icon-park_to-top.svg" alt="icon" width={24} height={24}/>
         </Link>
     </footer>
   )
