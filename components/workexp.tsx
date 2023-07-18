@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Workexp() {
   return (
     <div className={styles.grid}>
-        <div href="/project/work/business-travel-management" className={styles.card} >
+        <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/business-travel-management'>
                 <Image src="/Minit_5_2_Root_Cause_Analysis.png" alt="thumbnail" layout='fill' objectFit='contain' />
@@ -18,7 +18,7 @@ export default function Workexp() {
           <Link href="/project/work/business-travel-management" className={styles.arrow}> </Link>
         </div>
 
-        <div href="/project/work/asset-and-tools-management" className={styles.card} >
+        <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/asset-and-tools-management'>
                 <Image src="/minit-analyst-business-rules-screen-device-1.png" alt="thumbnail" layout='fill' objectFit='contain' />
@@ -30,7 +30,7 @@ export default function Workexp() {
           <Link href="/project/work/asset-and-tools-management" className={styles.arrow}> </Link>
         </div>
 
-        <div href="/project/work/mini-module" className={styles.card} >
+        <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/mini-module'>
                 <Image src="/minit-analyst-business-rules-screen-device.png" alt="thumbnail" layout='fill' objectFit='contain' />
@@ -42,7 +42,7 @@ export default function Workexp() {
           <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
         </div>
 
-        <div href="/project/work/recruitment-management" className={styles.card} >
+        <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/recruitment-management'>
                 <Image src="/minit-analyst-business-rules-screen-device-1.png" alt="thumbnail" layout='fill' objectFit='contain' />
@@ -54,7 +54,7 @@ export default function Workexp() {
           <Link href="/project/work/recruitment-management" className={styles.arrow}> </Link>
         </div>
 
-        <div href="/project/work/training-management" className={styles.card} >
+        <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/training-management'>
                 <Image src="/minit-analyst-business-rules-screen-device.png" alt="thumbnail" layout='fill' objectFit='contain' />
