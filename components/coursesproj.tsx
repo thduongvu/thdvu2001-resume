@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export default function Coursesproj() {
   return (
-        <div className={styles.grid}>
-        <div href="/project/courses/thesis" className={styles.card} >
+    <div className={styles.grid}>
+        <div ref="/project/courses/thesis" className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/courses/thesis'>
                 <Image src="/ai-root-cause-analysis-categorical-metrics-2.png" alt="thumbnail" layout='fill' objectFit='contain' />
@@ -17,6 +17,6 @@ export default function Coursesproj() {
           <br></br>
           <Link href="/project/courses/thesis" className={styles.arrow}> </Link>
         </div>
-        </div>
+    </div>
   )
 }
