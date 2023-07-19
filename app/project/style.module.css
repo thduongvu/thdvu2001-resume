@@ -1,4 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.titlespace {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    min-height: 10vh;
+}
+
+.title {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    font-size: 0.95rem;
+    max-width: var(--max-width);
+    width: 100%;
+    z-index: 2;
+    font-family: var(--font-mono);
+}
+
+.titleL {}
+
+.titleL h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+    padding-bottom: .5rem;
+    letter-spacing: -.25rem;
+    font-weight: 300;
+    font-family: "Space Grotesk", Helvetica, sans-serif;
+    color: #1d1d1b;
+    margin-block-start: 0.83em;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.titleL p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #00c488;
+    line-height: 1;
+    display: block;
+    font-family: var(--font-mono);
+    letter-spacing: -.025rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.titleR {
+    text-align: right;
+    bottom: 0;
+    align-self: flex-end;
+}
+
+.titleR p {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: #71716f;
+    line-height: 1;
+    display: block;
+    font-family: var(--font-mono);
+    letter-spacing: -.025rem;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -110,7 +174,7 @@
 .card span {
     padding: .25rem .5rem;
     border-radius: .25rem;
-    background-color: #efefef;
+    background-color: #bee3ac;
     align-content: left;
     font-size: .9rem;
     font-weight: 300;
