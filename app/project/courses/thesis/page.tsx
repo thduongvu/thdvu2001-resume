@@ -11,8 +11,7 @@ export default function Thesis() {
                 <p>Áp dụng kĩ thuật Khai phá quy trình trong lĩnh vực sản xuất</p>
             </div>
             <div className={styles.titleR}>
-                <p>Bài viết vẫn trong quá trình cập nhật</p>
-                <p>Last updated: Fri, 20 Jan 2023 12:01:41 GMT</p>
+                
             </div>
         </div>
     </div>
