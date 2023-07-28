@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -149,7 +150,7 @@ export default function BusinessTravelMgt() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="3">Nhóm người sử dụng cấp Quản Lý và Nhân Viên Bình Thường</td>
+                                    <td colSpan="3">Nhóm người sử dụng cấp Quản Lý và Nhân Viên Bình Thường</td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
