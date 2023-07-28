@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.code {
+    font-weight: 500;
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    color: #71716f;
+    line-height: 1;
+    display: block;
+    letter-spacing: -.025rem;
+}
+
+.contentspace {
+    padding: 2rem 6.5rem 2rem 6.5rem;
+}
+
+.contentspace table {}
+
+.tblActor {
+    padding: 0 6.5rem 0 6.5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.tblActor table {
+    margin: 1rem 15rem 1rem 8rem;
+    display: block;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .code:hover {
+        color: #00c488;
+    }
+}
+
 .titlespace {
     display: flex;
     flex-direction: column;
@@ -46,6 +79,25 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.titleL h2 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #71716f;
+    line-height: 1;
+    display: block;
+    font-family: var(--font-mono);
+    letter-spacing: -.025rem;
+}
+
+.titleL code {
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.25rem;
+    font-weight: 300;
+    font-family: "Space Grotesk", Helvetica, sans-serif;
+    color: #f8bc32
+}
+
 .titleR {
     text-align: right;
     bottom: 0;
@@ -60,6 +112,12 @@
     display: block;
     font-family: var(--font-mono);
     letter-spacing: -.025rem;
+}
+
+.notfound {
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
 }
 
 .intro {
