@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.section1 span {
+    text-align: center;
+    display: inline-flex;
+    border-radius: 100%;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(90deg, #007cf0, #00dfd8);
+}
+
+.contentspace span {
+    text-align: center;
+    display: inline-flex;
+    border-radius: 100%;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background: linear-gradient(90deg, #007cf0, #00dfd8);
+}
+
 .code {
     font-weight: 500;
     font-family: var(--font-mono);
@@ -12,6 +40,58 @@
 
 .contentspace {
     padding: 2rem 6.5rem 2rem 6.5rem;
+}
+
+.section1 {
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 p {
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--font-mono);
+    color: #666;
+    animation: section1p 2s infinite;
+}
+
+@keyframes section1p {
+    0%,
+    58.333%,
+    91.667%,
+    to {
+        opacity: 1;
+    }
+    66.667%,
+    83.333% {
+        opacity: 0;
+        color: #ffffff;
+    }
+}
+
+.section2 {
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section3 {
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section4 {
+    align-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .contentspace table {}
@@ -89,6 +169,18 @@
     letter-spacing: -.025rem;
 }
 
+.titleL h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #71716f;
+    line-height: 1;
+    display: block;
+    font-family: var(--font-mono);
+    letter-spacing: -.025rem;
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
 .titleL code {
     font-size: 3.75rem;
     line-height: 1;
@@ -102,6 +194,8 @@
     text-align: right;
     bottom: 0;
     align-self: flex-end;
+    align-items: right;
+    align-content: right;
 }
 
 .titleR p {

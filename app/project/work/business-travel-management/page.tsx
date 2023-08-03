@@ -12,7 +12,7 @@ export default function BusinessTravelMgt() {
     <div className={styles.titlespace}>
         <div className={styles.title}>
             <div className={styles.titleL}>
-                <h1>Business Travel <br></br>& <code>Expense</code> Management</h1>
+                <h1>Business Travel <br></br>& Expense Management</h1>
                 <p>Quản lý Công tác và Chi phí công tác</p>
                 <br></br>
                 <br></br>
@@ -29,6 +29,7 @@ export default function BusinessTravelMgt() {
         <div className={styles.title}>
                 <div className={styles.titleL}>
                     <Image src="/process.png" alt="img" width={941} height={216} priority/> 
+                    <h3>Quy trình thực hiện và tương tác với các bên liên quan</h3>
                 </div>
                 <div className={styles.titleR}>
                     <p><Link href="/"><code className={styles.code}>Context</code></Link></p>
@@ -37,17 +38,30 @@ export default function BusinessTravelMgt() {
                     <p><Link href="/"><code className={styles.code}>Userflow & Mocks (Interface)</code></Link></p>
                     <p><Link href="/"><code className={styles.code}>Product Architecture & Components</code></Link></p>
                     <p><Link href="/"><code className={styles.code}>Other Considerations</code></Link></p>
+                    <br></br>
                 </div>
             </div>
 
-        <div className={styles.contentspace}>
-            
+        <div className={styles.section1}>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <Link href="#problem">
+                <p>EXPLORE THIS PROJECT</p>
+            </Link>
+            <br></br>
+            <Image src="/problem.svg" alt="img" width={121} height={198} priority/> 
+        </div>
 
-                
+        <div className={styles.contentspace}>
+            <div >
                 <h2>Overview | Tổng quan</h2>
                 <p>Tài liệu mô tả quy trình tổng quan của hệ thống … bao gồm các quy trình/ nghiệp vụ:</p>
                 <p>-    Quy trình 1</p>
                 <p>-    Quy trình 2</p>
+            </div>
+                
 
                 <h2>Project Information | Thông tin dự án</h2>
                 <p> This is the first and most general category on the product requirements document. 
@@ -73,7 +87,16 @@ export default function BusinessTravelMgt() {
                     Sử dụng một hoặc hai câu, cung cấp ngữ cảnh cấp cao để cung cấp cho các thành viên trong nhóm 
                     và các bên liên quan một bản tóm tắt về sản phẩm là gì và tại sao sản phẩm lại quan trọng 
                     đối với người dùng cuối.</p>
+        </div>
 
+        <div id="#problem" className={styles.section2}>
+            <Image src="/solution.svg" alt="img" width={119} height={198} priority/> 
+        </div>
+
+
+        <div className={styles.contentspace}>
+                <br></br>
+                <br></br>
                 <h2>Requirements</h2>
                 <p> Liệt kê các mục tiêu của bạn theo thứ tự ưu tiên; cố gắng giữ cho danh sách ngắn gọn và các mục tiêu ngắn gọn. 
                     Viết ra các yêu cầu bạn cần đáp ứng, chẳng hạn như các chỉ số hiệu suất chính, 
@@ -111,74 +134,13 @@ export default function BusinessTravelMgt() {
                 <h2>Kiểm thử người dùng (UAT)</h2>
                     <h3>Kiểm tra nhóm Yêu cầu chức năng </h3>
                         <h4>Phân hệ ...</h4>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>STT</th>
-                                    <th>Tên chức năng<br></br>(Usecase và các trường hợp sử dụng)</th>
-                                    <th>Mô tả các bước kiểm thử</th>
-                                    <th>Yêu cầu đạt được<br></br>(Kết quả mong muốn)</th>
-                                    <th>Ghi chú</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1.</td>
-                                    <td>Hiển thị thông tin hồ sơ sức khỏe 
-                                        <br></br>-	Bệnh nhân có thể chọn chức năng hồ sơ sức khỏe
-                                        <br></br>-	Hệ thống có thể hiển thị các nhóm thông tin hồ sơ sức khỏe (bệnh sử)
-                                    </td>
-                                    <td>1. Mở ứng dụng Y bạ điện tử
-                                        <br></br>2. Đăng nhập vào ứng dụng
-                                        <br></br>3. Chọn Hồ sơ KCB
-                                        <br></br>4. Chọn Theo dõi sức khỏe cá nhân
-                                        <br></br>5. Chọn Thông tin bệnh sử
-                                    </td>
-                                    <td>Bệnh nhân có thể chọn chức năng hồ sơ sức khỏe</td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <br></br>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>STT</th>
-                                    <th>Người sử dụng</th>
-                                    <th>Vai trò</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td colSpan="3">Nhóm người sử dụng cấp Quản Lý và Nhân Viên Bình Thường</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Nhân viên</td>
-                                    <td>Xem, cập nhật thông tin cá nhân: lý lịch, nghỉ phép, đánh giá Nhân viên</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Cán bộ Quản lý</td>
-                                    <td>Cập nhật và thao tác các nghiệp vụ Quản Lý Nhân sự.</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Lãnh đạo Tổng Công ty và các Công ty Chi Nhánh</td>
-                                    <td>Xem tình hình nhân sự, tra cứu các thông tin nhân sự hoặc xem các báo cáo thống kê nhân sự</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="3">Nhóm người sử dụng cấp Quản Lý và Nhân Viên Bình Thường</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Quản trị hệ thống</td>
-                                    <td>Nhân viên quản trị hệ thống, quản trị thành viên, phân quyền, thực hiện các chính sách bảo mật, sao lưu, …</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        
     
                 <h2>Outcome</h2>
+        </div>
+
+        <div className={styles.section3}>
+            <Image src="/others.svg" alt="img" width={100} height={198} priority/> 
         </div>
     </div>
   )
