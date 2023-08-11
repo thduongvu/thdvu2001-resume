@@ -46,10 +46,10 @@ export default function BusinessTravelMgt() {
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
             <Link href="#problem">
                 <p>EXPLORE THIS PROJECT</p>
             </Link>
+            <br></br>
             <br></br>
             <Image src="/problem.svg" alt="img" width={121} height={198} priority/> 
         </div>
