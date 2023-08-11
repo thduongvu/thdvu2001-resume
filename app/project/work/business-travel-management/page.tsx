@@ -28,7 +28,7 @@ export default function BusinessTravelMgt() {
 
         <div className={styles.title}>
                 <div className={styles.titleL}>
-                    <Image src="/process.png" alt="img" width={941} height={216} priority/> 
+                    <Image src="/process_941x216.svg" alt="img" width={941} height={216} priority/> 
                     <h3>Quy trình thực hiện và tương tác với các bên liên quan</h3>
                 </div>
                 <div className={styles.titleR}>

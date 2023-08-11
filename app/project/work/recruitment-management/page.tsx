@@ -26,8 +26,7 @@ export default function RecruitmentMgt() {
 
         <div className={styles.title}>
                 <div className={styles.titleL}>
-                    <Image src="/timelinerm.png" alt="img" width={941} height={216} priority/> 
-                    <h3>Quy trình thực hiện và tương tác với các bên liên quan</h3>
+                    <Image src="/function_941x210.svg" alt="img" width={941} height={210} priority/> 
                 </div>
                 <div className={styles.titleR}>
                     <p><Link href="/"><code className={styles.code}>Context</code></Link></p>
