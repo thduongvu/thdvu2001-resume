@@ -48,9 +48,16 @@ export default function RecruitmentMgt() {
                 <p>EXPLORE THIS PROJECT</p>
             </Link>
             <br></br>
-            <Image src="/analysis_124x198.svg" alt="img" width={124} height={198} priority/> 
+            <Image src="/analysis_124x198.svg" alt="img" width={124} height={198} priority/>
         </div>
 
+        <iframe src="https://dtgvbx.axshare.com/" width="1440" height="600">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+
+        
+
+    
         <div id="#problem" className={styles.section2}>
             <Image src="/design_102x198.svg" alt="img" width={102} height={198} priority/> 
         </div>
