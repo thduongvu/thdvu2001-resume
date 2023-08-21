@@ -32,18 +32,6 @@ export default function Workexp() {
 
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/project/work/asset-and-tools-management'>
-                <Image src="/minit-analyst-business-rules-screen-device-1.png" alt="thumbnail" layout='fill' objectFit='contain' />
-              </a>
-          </figure>
-          <p><span>Product</span></p>
-          <h2>Asset and Tools Management<br></br>Quản lý Tài sản và Công cụ lao động</h2>
-          <br></br>
-          <Link href="/project/work/asset-and-tools-management" className={styles.arrow}> </Link>
-        </div>
-
-        <div className={styles.card} >
-          <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/mini-module'>
                 <Image src="/minit-analyst-business-rules-screen-device.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
@@ -54,17 +42,6 @@ export default function Workexp() {
           <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
         </div>
 
-        <div className={styles.card} >
-          <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/project/work/training-management'>
-                <Image src="/minit-analyst-business-rules-screen-device.png" alt="thumbnail" layout='fill' objectFit='contain' />
-              </a>
-          </figure>
-          <p><span>Product</span></p>
-          <h2>Training Management <br></br>Quản lý Đào tạo</h2>
-          <br></br>
-          <Link href="/project/work/training-management" className={styles.arrow}> </Link>
-        </div>
     </div>
   )
 }

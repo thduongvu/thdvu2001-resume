@@ -11,8 +11,9 @@ export default function Home() {
   return (
     <div>
       <div className={styles.center}>
-        <h1>Seamless Processes<br></br>Start Here.</h1>
-        <p>Check your process reality as it is.<br></br>Unbiased, objective, exact.</p>
+        <h1>hi! my name is <span>Thuy Duong</span></h1>
+        <p> Welcome to my portfolio!  
+        </p>
         <Link href="/project" className={styles.button}>Check Out My Projects </Link>
 
         <div className={styles.line}></div>
@@ -22,12 +23,16 @@ export default function Home() {
                 <div className={styles.aboutme_des}>
                     <h3>About me</h3>
                     <p> I am currently a final year student at University of Information Technology - VNU HCM based Information Systems 
-                      <br></br>with a goal-driven creative mindset and passion for learning and innovating.
-                      <br></br>Currently working as a software developer at FPT and as a Freelance Content Writer for Pepper Content.
-                      <br></br>Outside work, I occasionally blog on Medium. Off-screen, I sketch my thoughts here!
+                      <br></br> with a strong interest in identifying problems, researching, and building solutions to solve them.
+                      <br></br>
+                      <br></br> I love to explore the world around me, always feel curious about how things work. 
+                      <br></br> I’m very interested in creative solutions and want to improve people's work and lives through creating valuable tools and products.
+                      <br></br>
+                      <br></br> In my work, my aim is to propose solutions and develop products that solve real (potential) problems for customers, markets and bring value to the business.
+                      <br></br> 
                     </p>
                 </div>
-                <Image src="/ me_00c488.svg" alt="avatar" width={306} height={282.573} priority/>
+                <Image src="/me_00c488.svg" alt="avatar" width={323} height={327} priority/>
             </div>
             <Link href="#footer_footer" className={styles.buttonup}>Contact Me</Link>
         </div>

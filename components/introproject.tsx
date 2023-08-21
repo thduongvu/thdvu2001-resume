@@ -7,8 +7,9 @@ export default function IntroProject() {
         <div className={styles.left}>
             <h1>Projects</h1>
 
-            <p>Download our free materials or watch the webinars,<br></br>
-            and learn how process mining can provide value for your business.</p>
+            <p>some projects within the enterprises I have worked for,<br></br>
+            my graduation thesis, and other creative contests.</p>
+
           </div>
   )
 }

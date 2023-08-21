@@ -1,5 +1,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&family=Ubuntu:wght@700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@100;200;300;400;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:wght@600&family=Sora:wght@100;200;300;400;800&display=swap');
     .main {
         display: flex;
         flex-direction: column;
@@ -132,10 +134,10 @@
     
     .services div {
         border-radius: 1rem;
-        border: 0px solid rgba(29, 29, 27, 0.15);
+        border: 0px solid #1d1d1b;
         margin: 2rem;
         padding: 2rem 0 2rem 0;
-        background-color: #ececec;
+        background-color: #fff;
         font-size: 1.15rem;
     }
     
@@ -288,6 +290,18 @@
         box-sizing: border-box;
     }
     
+    .center span {
+        font-size: 4.5rem;
+        letter-spacing: -.25rem;
+        font-weight: 600;
+        font-family: "Space Grotesk", Helvetica, sans-serif;
+        color: #1B212D;
+        margin-block-start: 0.23em;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+    }
+    
     .center h2 {
         font-size: 3rem;
         text-align: center;
@@ -308,8 +322,8 @@
         text-align: center;
         padding: 3rem 0 2rem 0;
         font-family: "Space Grotesk", Helvetica, sans-serif;
+        font-weight: 800;
         letter-spacing: -.075rem;
-        font-weight: 700;
         color: #1d1d1b;
     }
     
@@ -358,7 +372,7 @@
         align-items: center;
         padding: 1rem 0 1rem 0;
         min-height: 10vh;
-        background-color: #1d1d1b;
+        background-color: #1B212D;
         margin-top: 2rem;
     }
     
@@ -457,7 +471,7 @@
         max-width: var(--max-width);
         width: 100%;
         z-index: 2;
-        font-family: var(--font-mono);
+        font-family: "Space Grotesk", Helvetica, sans-serif;
     }
     
     .aboutme_inside Image {
@@ -466,13 +480,14 @@
     
     .aboutme_des h3 {
         text-align: left;
-        font-family: "Space Grotesk", "Poppins", Helvetica, sans-serif;
+        font-family: "Space Grotesk", Helvetica, sans-serif;
+        font-weight: 800;
     }
     
     .aboutme_des p {
         text-align: left;
-        font-size: 1rem;
-        font-family: Helvetica, sans-serif;
+        font-size: 1.02rem;
+        font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 400;
         color: #1d1d1b;
         line-height: 2;
