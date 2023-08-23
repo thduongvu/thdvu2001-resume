@@ -26,7 +26,7 @@ export default function Home() {
                       <br></br> with a strong interest in identifying problems, researching, and building solutions to solve them.
                       <br></br>
                       <br></br> I love to explore the world around me, always feel curious about how things work. 
-                      <br></br> I’m very interested in creative solutions and want to improve people's work and lives through creating valuable tools and products.
+                      <br></br> I &apos; m very interested in creative solutions and want to improve people &apos; s work and lives through creating valuable tools and products.
                       <br></br>
                       <br></br> In my work, my aim is to propose solutions and develop products that solve real (potential) problems for customers, markets and bring value to the business.
                       <br></br> 
