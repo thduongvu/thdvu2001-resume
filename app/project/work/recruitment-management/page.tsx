@@ -48,27 +48,34 @@ export default function RecruitmentMgt() {
                 <p>EXPLORE THIS PROJECT</p>
             </Link>
             <br></br>
-            <Image src="/analysis_124x198.svg" alt="img" width={124} height={198} priority/>
+            <Image src="/s1_1227x347.svg" alt="img" width={1227} height={347} priority/>
         </div>
 
-        <iframe src="https://dtgvbx.axshare.com/" width="1440" height="600">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-
-        
-
-    
         <div id="#problem" className={styles.section2}>
-            <Image src="/design_102x198.svg" alt="img" width={102} height={198} priority/> 
+            <Image src="/s2_1227x306.svg" alt="img" width={1227} height={306} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/h11_1227x110.svg" alt="img" width={1227} height={110} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/h211_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/s3_1227x389.svg" alt="img" width={1227} height={389} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/h212_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+        <br></br>
+        
+        <div id="#problem" className={styles.section2}>
+            <Image src="/s4_1227x1082.svg" alt="img" width={1227} height={1082} priority/> 
         </div>
 
-        <div className={styles.section3}>
-            <Image src="/develop_119x198.svg" alt="img" width={119} height={198} priority/> 
-        </div>
-
-        <div className={styles.section4}>
-            <Image src="/testing_177x198.svg" alt="img" width={177} height={198} priority/> 
-        </div>
     </div>
   )
 }
