@@ -36,7 +36,7 @@ export default function MiniModule() {
                 <p>EXPLORE THIS PROJECT</p>
             </Link>
             <br></br>
-            <iframe width="201" height="173" frameborder="0" 
+            <iframe width="201" height="173"
                     src="https://uithcm-my.sharepoint.com/:p:/g/personal/19521416_ms_uit_edu_vn/EYzF_tP_TPBOrjzNTtusFCABKT21l4nDuLYBBhwYTihOpw?e=6eOwMD&action=embedview&wdbipreview=true">
             </iframe>
         </div>
