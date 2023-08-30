@@ -36,10 +36,60 @@ export default function MiniModule() {
                 <p>EXPLORE THIS PROJECT</p>
             </Link>
             <br></br>
-            <iframe width="201" height="173"
-                    src="https://uithcm-my.sharepoint.com/:p:/g/personal/19521416_ms_uit_edu_vn/EYzF_tP_TPBOrjzNTtusFCABKT21l4nDuLYBBhwYTihOpw?e=6eOwMD&action=embedview&wdbipreview=true">
+            <Image src="/sd1_1227x347.svg" alt="img" width={1227} height={347} priority/>
+            
+            <br></br>
+        </div>
+
+        <div className={styles.section2}>
+            <Image src="/sd2_1227x236.svg" alt="img" width={1227} height={236} priority/> 
+        </div>
+
+        <br></br>
+
+        <div className={styles.section2}>
+            <Image src="/sd3_1227x110.svg" alt="img" width={1227} height={110} priority/> 
+        </div>
+
+        <br></br>
+
+        <div className={styles.section2}>
+            <Image src="/mohinh.png" alt="img" width={731} height={433} priority/> 
+        </div>
+
+        <div className={styles.section2}>
+            <Image src="/sd4_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+
+        <div className={styles.section2}>
+            <Link className={styles.button} target="_blank" href="https://uithcm-my.sharepoint.com/:p:/g/personal/19521416_ms_uit_edu_vn/EYzF_tP_TPBOrjzNTtusFCABKT21l4nDuLYBBhwYTihOpw?e=uzYx26">
+              >>> Xem nội dung đầy đủ >>>
+            </Link>
+        </div>
+
+        <div className={styles.section2}>
+            <Image src="/slides_800x450.png" alt="img" width={800} height={450} priority/> 
+        </div>
+
+
+        <br></br>
+        <br></br>
+        <div className={styles.section2}>
+            <Image src="/sd5_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+
+        <div className={styles.section2}>
+            <Link className={styles.button} target="_blank" href="https://54b4r8.axshare.com">
+              >>> Thao tác dễ dàng hơn ở tab mới >>>
+            </Link>
+        </div>
+
+        <div className={styles.section2}>
+            <iframe src="https://54b4r8.axshare.com" width="1440" height="800">
+                <p>Your browser does not support iframes.</p>
             </iframe>
         </div>
+        <br></br>
     </div>
   )
 }

@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Sora:wght@100;200;300;400;800&display=swap');
+.button {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    font-size: .9rem;
+    line-height: 1;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 700;
+    min-width: 9rem;
+    text-align: center;
+    padding: 0.8rem 1.75rem 0.8rem 1.75rem;
+    border: 0px solid #1d1d1b;
+    border-radius: 4rem;
+    color: #1d1d1b
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .button:hover {
+        border-color: #e1551d;
+        color: #e1551d
+    }
+}
+
 .section1 span {
     text-align: center;
     display: inline-flex;
