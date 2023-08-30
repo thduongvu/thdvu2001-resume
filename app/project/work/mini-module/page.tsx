@@ -63,7 +63,7 @@ export default function MiniModule() {
 
         <div className={styles.section2}>
             <Link className={styles.button} target="_blank" href="https://uithcm-my.sharepoint.com/:p:/g/personal/19521416_ms_uit_edu_vn/EYzF_tP_TPBOrjzNTtusFCABKT21l4nDuLYBBhwYTihOpw?e=uzYx26">
-              >>> Xem nội dung đầy đủ >>>
+            {'>'}{'>'}{'>'} Xem nội dung đầy đủ {'>'}{'>'}{'>'}
             </Link>
         </div>
 
@@ -80,7 +80,7 @@ export default function MiniModule() {
 
         <div className={styles.section2}>
             <Link className={styles.button} target="_blank" href="https://54b4r8.axshare.com">
-              >>> Thao tác dễ dàng hơn ở tab mới >>>
+            {'>'}{'>'}{'>'} Thao tác dễ dàng hơn ở tab mới {'>'}{'>'}{'>'}
             </Link>
         </div>
 
