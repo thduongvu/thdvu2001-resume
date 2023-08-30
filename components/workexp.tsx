@@ -37,7 +37,7 @@ export default function Workexp() {
               </a>
           </figure>
           <p><span>Product</span></p>
-          <h2>Expansion module for SD Department</h2>
+          <h2>Phát triển module mở rộng (đặc thù) cho bộ phận SD</h2>
           <br></br>
           <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
         </div>

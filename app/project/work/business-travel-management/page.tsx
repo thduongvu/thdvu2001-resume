@@ -14,6 +14,10 @@ export default function BusinessTravelMgt() {
             <div className={styles.titleL}>
                 <h1>Business Travel <br></br>& Expense Management</h1>
                 <p>Quản lý Công tác và Chi phí công tác</p>
+                <h2><span>#Product Development</span>&nbsp;
+                    <span>#UML</span>&nbsp;
+                    <span>#SQL</span>&nbsp;
+                </h2>
                 <br></br>
                 <br></br>
                 <Tooltip content="Nội dung dự án vẫn được cập nhật" placement="right">
