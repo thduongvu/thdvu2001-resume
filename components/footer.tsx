@@ -10,17 +10,18 @@ export default function Footer() {
         <div className={styles.footer_inside}>
             <p>Copyright © 2023 by Thuy Duong. All rights reserved.</p>
           
-            <Link href="/">
-                <Image src="/facebook.png" alt="facebook"  width={40} height={40} priority/>
+            <Link href="mailto:thduong.contact@gmail.com">
+                <Image src="/mail.svg" alt="mail"  width={40} height={40} priority/>
             </Link>
             &nbsp;&nbsp;
-            <Link href="/">
-               <Image src="/linkedin.png" alt="linkedin"  width={40} height={40} priority/>
+            <Link href="tel:0366866701">
+               <Image src="/phone.svg" alt="phone"  width={40} height={40} priority/>
             </Link>
             &nbsp;&nbsp;
-            <Link href="/">
-                <Image src="/twitter.png" alt="twitter"  width={40} height={40} priority/>
+            <Link href="https://github.com/thduongvu/thdvu2001-resume">
+               <Image src="/github.svg" alt="github"  width={40} height={40} priority/>
             </Link>
+            
         </div>
 
         <Link href="#top">

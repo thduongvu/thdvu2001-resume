@@ -33,11 +33,11 @@ export default function Workexp() {
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/mini-module'>
-                <Image src="/minit-analyst-business-rules-screen-device.png" alt="thumbnail" layout='fill' objectFit='contain' />
+                <Image src="/project01_800x450.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>
           <p><span>Product</span></p>
-          <h2>Phát triển module mở rộng (đặc thù) cho bộ phận SD</h2>
+          <h2>SD Services (Integrated Project)</h2>
           <br></br>
           <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
         </div>
