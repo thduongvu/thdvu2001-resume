@@ -18,7 +18,7 @@ export default function Footer() {
                <Image src="/phone.svg" alt="phone"  width={40} height={40} priority/>
             </Link>
             &nbsp;&nbsp;
-            <Link href="https://github.com/thduongvu/thdvu2001-resume">
+            <Link target="_blank" href="https://github.com/thduongvu/thdvu2001-resume">
                <Image src="/github.svg" alt="github"  width={40} height={40} priority/>
             </Link>
             
