@@ -40,21 +40,16 @@ export default function Home() {
         <div className={styles.line}></div>
 
         <h3>What I Do?</h3>
+        
         <div className={styles.services}>
             <div className={styles.roles}>
-              <Image src="/pic1.png" alt="role1" width={80} height={40} priority/>
               <h4>Business Analyst</h4>
-              <h6>I offer world-class custom software development services designed specifically for your business and ready to satisfy your exclusive needs.</h6>
             </div>
             <div className={styles.roles}>
-              <Image src="/pic2.png" alt="role2" width={80} height={40} priority/>
-              <h4>System Analyst</h4>
-              <h6>I sync Mpesa web API with websites to enable automation of payments verification, disbursements, and payment record management.</h6>
+              <h4>Systems Analyst</h4>
             </div>
             <div className={styles.roles}>
-              <Image src="/pic3.png" alt="role3" width={80} height={40} priority/>
               <h4>Software Deployment</h4>
-              <h6>I offer API integration service in existing applications or in software I create from scratch.</h6>
             </div>
         </div>
       </div>

@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../app/page.module.css'
 import '../app/globals.css'
+import { Tooltip} from '@nextui-org/react'
 
 export default function Footer() {
   return (
@@ -11,15 +13,21 @@ export default function Footer() {
             <p>Copyright © 2023 by Thuy Duong. All rights reserved.</p>
           
             <Link href="mailto:thduong.contact@gmail.com">
-                <Image src="/mail.svg" alt="mail"  width={40} height={40} priority/>
+                <Tooltip content="thduong.contact@gmail.com" placement="top">
+                    <Image src="/mail.svg" alt="mail"  width={40} height={40} priority/>
+                </Tooltip>
             </Link>
             &nbsp;&nbsp;
             <Link href="tel:0366866701">
-               <Image src="/phone.svg" alt="phone"  width={40} height={40} priority/>
+                <Tooltip content="0366866701" placement="top">
+                    <Image src="/phone.svg" alt="phone"  width={40} height={40} priority/>
+                </Tooltip>
             </Link>
             &nbsp;&nbsp;
             <Link target="_blank" href="https://github.com/thduongvu/thdvu2001-resume">
-               <Image src="/github.svg" alt="github"  width={40} height={40} priority/>
+                <Tooltip content="thduongvu" placement="top">
+                    <Image src="/github.svg" alt="github"  width={40} height={40} priority/>
+                </Tooltip>
             </Link>
             
         </div>

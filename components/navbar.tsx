@@ -25,33 +25,19 @@
             &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div className={styles.rssBlock}>
+                <p className={styles.cnnContents}>
+                    <span className={styles.marqueeStyle}>  &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                    <span className={styles.marqueeStyle2}> &nbsp;&#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                            &#10047;&nbsp; READY FOR WORK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </p>
+            </div>
+            
             &nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;
             <div>
