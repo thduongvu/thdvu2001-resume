@@ -8,20 +8,20 @@ export default function Workexp() {
     <div className={styles.grid}>
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/project/work/business-travel-management'>
-                <Image src="/Minit_5_2_Root_Cause_Analysis.png" alt="thumbnail" layout='fill' objectFit='contain' />
+              <a href='/project/work/mini-module'>
+                <Image src="/project01_800x450.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>
           <p><span>Product</span></p>
-          <h2>Business Travel & Expenses Management<br></br>Quản lý Công tác và Chi phí công tác</h2>
+          <h2>SD Services (Integrated Project)</h2>
           <br></br>
-          <Link href="/project/work/business-travel-management" className={styles.arrow}> </Link>
+          <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
         </div>
 
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
               <a href='/project/work/recruitment-management'>
-                <Image src="/minit-analyst-business-rules-screen-device-1.png" alt="thumbnail" layout='fill' objectFit='contain' />
+                <Image src="/project2.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>
           <p><span>Product</span></p>
@@ -32,14 +32,14 @@ export default function Workexp() {
 
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='/project/work/mini-module'>
-                <Image src="/project01_800x450.png" alt="thumbnail" layout='fill' objectFit='contain' />
+              <a href='/project/work/business-travel-management'>
+                <Image src="/project04.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>
           <p><span>Product</span></p>
-          <h2>SD Services (Integrated Project)</h2>
+          <h2>Business Travel & Expenses Management<br></br>Quản lý Công tác và Chi phí công tác</h2>
           <br></br>
-          <Link href="/project/work/mini-module" className={styles.arrow}> </Link>
+          <Link href="/project/work/business-travel-management" className={styles.arrow}> </Link>
         </div>
 
     </div>

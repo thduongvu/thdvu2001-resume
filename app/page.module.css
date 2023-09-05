@@ -142,6 +142,7 @@
         border: 1px solid #00c488;
         border-radius: 4rem;
         color: #00c488;
+        margin-left: 527px;
     }
     
     .buttonup::after {
@@ -218,6 +219,8 @@
     
     .roles {
         font-size: 1.15rem;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
     
     .card {
@@ -534,10 +537,10 @@
     }
     
     .roles {
-        background: linear-gradient(#fff, #fff 50%, #2ecc71 50%, #2ecc71);
+        background: linear-gradient(#FFFEFF, #FFFEFF 50%, #2ecc71 50%, #2ecc71);
         background-size: 100% 200%;
         /*trasition effect for background*/
-        transition: background 0.1s;
+        transition: background 0.3s;
     }
     
     @media (hover: hover) and (pointer: fine) {
@@ -552,7 +555,7 @@
             transform: translateY(-.5rem);
             box-shadow: 0 0 11px rgba(33, 33, 33, .2);
             transition-property: transform, opacity;
-            background-position: 100% 5%;
+            background-position: 100% 3%;
         }
     }
     
@@ -582,9 +585,10 @@
     }
     
     .aboutme_des h3 {
-        text-align: left;
+        text-align: right;
         font-family: "Space Grotesk", Helvetica, sans-serif;
         font-weight: 800;
+        margin-right: 478px;
     }
     
     .aboutme_des p {

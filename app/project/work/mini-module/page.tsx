@@ -19,7 +19,7 @@ export default function MiniModule() {
                 <br></br>
                 <br></br>
                 <Tooltip content="Thời gian cập nhật gần nhất" placement="right">
-                    <h2>25-08-2023 12:01:41</h2> 
+                    <h2>28-08-2023 12:01:41</h2> 
                 </Tooltip>
             </div>
             <div className={styles.titleR}>

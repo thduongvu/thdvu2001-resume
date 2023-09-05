@@ -16,7 +16,7 @@ export default function RecruitmentMgt() {
                 <br></br>
                 <br></br>
                 <Tooltip content="Nội dung dự án vẫn được cập nhật" placement="right">
-                    <h2>20-06-2023 12:01:41</h2> 
+                    <h2>04-09-2023 23:09:06</h2> 
                 </Tooltip>
             </div>
             <div className={styles.titleR}>
@@ -37,7 +37,7 @@ export default function RecruitmentMgt() {
                     <p><Link href="/"><code className={styles.code}>Other Considerations</code></Link></p>
                     <br></br>
                 </div>
-            </div>
+        </div>
 
         <div className={styles.section1}>
             <br></br>
@@ -75,6 +75,20 @@ export default function RecruitmentMgt() {
         <div id="#problem" className={styles.section2}>
             <Image src="/s4_1227x1082.svg" alt="img" width={1227} height={1082} priority/> 
         </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/h213_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/h3_1227x30.svg" alt="img" width={1227} height={30} priority/> 
+        </div>
+        <br></br>
+        <div id="#problem" className={styles.section2}>
+            <Image src="/s6_1227x190.svg" alt="img" width={1227} height={190} priority/> 
+        </div>
+         
+        
 
     </div>
   )

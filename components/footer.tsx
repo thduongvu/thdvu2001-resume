@@ -10,8 +10,8 @@ export default function Footer() {
   return (
     <footer id="footer_footer" className={styles.footer}>
         <div className={styles.footer_inside}>
-            <p>Copyright © 2023 by Thuy Duong. All rights reserved.</p>
-          
+            <p>Copyright © 2023 by Thuy Duong. This portfolio is the first product when I learn more about NextJs Framework</p>
+
             <Link href="mailto:thduong.contact@gmail.com">
                 <Tooltip content="thduong.contact@gmail.com" placement="top">
                     <Image src="/mail.svg" alt="mail"  width={40} height={40} priority/>
