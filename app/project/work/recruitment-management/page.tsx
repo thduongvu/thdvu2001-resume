@@ -29,12 +29,12 @@ export default function RecruitmentMgt() {
                     <Image src="/function_941x210.svg" alt="img" width={941} height={210} priority/> 
                 </div>
                 <div className={styles.titleR}>
-                    <p><Link href="/"><code className={styles.code}>Context</code></Link></p>
-                    <p><Link href="/"><code className={styles.code}>Problem Statement</code></Link></p>
-                    <p><Link href="/"><code className={styles.code}>Feature / Requirements</code></Link></p>
-                    <p><Link href="/"><code className={styles.code}>Userflow & Mocks (Interface)</code></Link></p>
-                    <p><Link href="/"><code className={styles.code}>Product Architecture & Components</code></Link></p>
-                    <p><Link href="/"><code className={styles.code}>Other Considerations</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Overview</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Deliverables</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Background</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Features</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Process</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Mockup</code></Link></p>
                     <br></br>
                 </div>
         </div>
