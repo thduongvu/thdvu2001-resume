@@ -8,7 +8,7 @@ export default function Coursesproj() {
     <div className={styles.grid}>
         <div className={styles.card} >
           <figure className={styles.item_img} style={{width: 'auto', height: 'auto'}}>
-              <a href='#'>
+              <a href='/project/courses/thesis'>
                 <Image src="/project04.png" alt="thumbnail" layout='fill' objectFit='contain' />
               </a>
           </figure>

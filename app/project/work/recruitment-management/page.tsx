@@ -29,12 +29,12 @@ export default function RecruitmentMgt() {
                     <Image src="/function_941x210.svg" alt="img" width={941} height={210} priority/> 
                 </div>
                 <div className={styles.titleR}>
-                    <p><Link href="#"><code className={styles.code}>Overview</code></Link></p>
-                    <p><Link href="#"><code className={styles.code}>Deliverables</code></Link></p>
-                    <p><Link href="#"><code className={styles.code}>Background</code></Link></p>
-                    <p><Link href="#"><code className={styles.code}>Features</code></Link></p>
-                    <p><Link href="#"><code className={styles.code}>Process</code></Link></p>
-                    <p><Link href="#"><code className={styles.code}>Mockup</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Overview | Tổng quan</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Deliverables | Đầu ra</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Background | Hiện trạng</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Features | Chức năng</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Process | Quy trình</code></Link></p>
+                    <p><Link href="#"><code className={styles.code}>Mockup | Sản phẩm</code></Link></p>
                     <br></br>
                 </div>
         </div>
